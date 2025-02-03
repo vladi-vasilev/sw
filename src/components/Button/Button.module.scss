@@ -1,0 +1,26 @@
+.customButton {
+    border-color: #fade4b;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 4px 24px;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 120px;
+
+    &:hover {
+        cursor: pointer;
+        border-color: white;
+
+    }
+
+    &:active {
+        border-color: rgb(21, 21, 247);
+    }
+
+    &:disabled {
+        opacity: 0.2;
+    }
+}
